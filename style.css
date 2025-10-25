@@ -16,10 +16,11 @@ p{
 @media(min-width:300px) and (max-width:400px){
   body{background-color: pink;
   p::after{
-    content: "this is a Android veiw";}
+    content: "This is Android veiw";}
     
   }
 }
+
 
 @media(min-width:400px) and(max-width:600px){
   body{background-color:red;}
@@ -28,5 +29,5 @@ p{
   body{
     background-color:blue;}
     p::after{
-    content: "this is a desktop veiw";}
+    content: "This is desktop veiw";}
 }
